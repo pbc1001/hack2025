@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./hack2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="big_container">
+      <div class="left">
+        <div class="header">
+          <img class="WANNAGO_logo" src="./union_mark.png" alt="" />
+          <p>WANNAGO</p>
+        </div>
+        <div class="left_main">
+          <p class="left_main-text">커리큘럼</p>
+          <span>React 입문</span>
+          <div class="chapter">
+            <div class="border_left">
+              <button class="toc">1 - hook 이란?</button>
+              <div class="border_left">
+                <button class="smalltoc">1.1 - usestate</button>
+                <div class="border_left">
+                  <div>
+                    <button class="smallertoc">1.1.1 - prev</button>
+                  </div>
+                  <div>
+                    <button class="smallertoc">1.1.2 - 비동기</button>
+                  </div>
+                </div>
+
+                <button class="smalltoc">1.2 - useRef</button>
+              </div>
+            </div>
+          </div>
+          <div class="chapter">
+            <div class="border_left">
+              <div class="complete_topic">
+                <button class="toc complete">2 - SPA란?</button>
+                <div class="circle">
+                  <img src="./jsdkjdj.png" alt="" />
+                </div>
+              </div>
+
+              <div class="border_left">
+                <div>
+                  <button class="smalltoc">2.1 - CSR</button>
+                </div>
+                <div>
+                  <button class="smalltoc">2.2 - SSR</button>
+                </div>
+
+                <div class="border_left">
+                  <div>
+                    <button class="smallertoc">2.2.1 - NextJS</button>
+                  </div>
+                  <div>
+                    <button class="smallertoc">2.2.2 - 하이드레이션</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="left_footer">
+          <button class="edit_button">커리큘럼 수정</button>
+        </div>
+      </div>
+      <div class="middle">
+        <div class="middle_main">
+          <div class="middle_main-text">1.1 - useState</div>
+          <div class="middle_main-container">
+            <div class="middle_main-see"></div>
+            <!--여기가 양상 빛 사진자료 등등이 들어가는 자리입니다-->
+            <div class="explain">
+              useState는 React에서 함수형 컴포넌트 내부에서 상태를 관리할 수
+              있도록 해주는 함수입니다. 이를 사용하면 어떤 값(예: 숫자, 문자열,
+              객체 등)을 상태로 저장하고, 그 값을 변경할 수 있는 함수를 함께
+              얻을 수 있습니다.
+            </div>
+            <div class="explain1">
+              예를 들어, useState(0)이라고 하면 0이라는 초기값을 가진 상태
+              변수와 그 값을 변경할 수 있는 함수를 반환합니다. 이 함수를
+              호출하면 React는 컴포넌트를 다시 렌더링하여 변경된 상태를 화면에
+              반영합니다. 즉, useState는 사용자 입력, 버튼 클릭, 네트워크 응답
+              등에 따라 컴포넌트의 UI를 동적으로 변경할 수 있도록 도와주는
+              중요한 기능입니다.
+            </div>
+            <div class="button_list">
+              <button class="more_see">
+                더 많은 시각 자료<img src="./Vector.png" alt="" />
+              </button>
+              <button class="complete_button">공부 완료</button>
+            </div>
+          </div>
+          <div class="middle_footer">
+            <button class="prev_button">
+              <div class="lemon">
+                <p class="button_text">Prev</p>
+                1 - hook이란?
+              </div>
+            </button>
+            <button class="next_button">
+              <div class="lemon">
+                <p class="button_text">Next</p>
+                1.1.1 - prev
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header_text">AI에게 도움받기</div>
+        <div class="right_main">
+          <!--여기에 채팅 기록이 떠야해요!-->
+          아직 대화한 기록이 없어요
+        </div>
+        <div class="right_footer">
+          <div class="footer_all">
+            <div class="footer_up">
+              <input
+                class="footer_input"
+                type="text"
+                placeholder="ex)경제학에 대해 공부하고 싶어요"
+              /><button class="upload_button">
+                <div class="upload">
+                  <img src="./Vector1.png" alt="" />
+                </div>
+              </button>
+            </div>
+            <div class="footer_down">
+              <div class="down_text">output-video</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

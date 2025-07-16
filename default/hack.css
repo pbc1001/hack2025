@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.big_container {
+    width: 100vh;
+    height: 95vh;
+    margin-left: 40px;
+}
+
+.header {
+    display: flex;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.WANNAGO_logo {
+    margin-top: 4.5px;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 140px;
+}
+
+.title_box {
+    width: 100vh;
+}
+
+.title_message {
+    color: #000000;
+    font-weight: 500;
+    font-size: 64px;
+    margin-top: 156px;
+    
+}
+
+
+.making_new-button {
+    margin-top: 104px;
+    border: 0;
+    background-color: black;
+    width: 180px;
+    height: 48px;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-button {
+    border: 0;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+}
+
+.plus_img{
+    margin-right: 12px;
+}
+
+.studying_box-container{
+    width: 1596px;
+    display: flex;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.studying_box {
+    width: 300px;
+    height: 240px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.setting_dot {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+}
+
+.box_text {
+    margin-left: 20px;
+}
+
+.main_text {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.sub_text {
+    margin-top: 12px;
+    color: #91918E;
+
+}
+
+.box_0 {
+    background-color: #Ffffc0;
+}
+
+.box_1 {
+    background-color: #dbffbd;
+}
+
+.box_2 {
+    background-color: #d5e4ff;
+}
+
+.box_3 {
+    background-color: #f4ddff;
+}
+
+.box_4 {
+    background-color: #FFE1BF;
+}
